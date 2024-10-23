@@ -1,0 +1,10 @@
+SELECT * FROM obat;
+SELECT * FROM supplier where harga=5000;
+SELECT * FROM pelanggan where nama_pelanggan = "Rendi";
+DELETE FROM obat WHERE id_obat = 5;
+INSERT INTO supplier ("nama_supplier", "alamat_supplier", "no_telp") VALUES ("Muhammad Bilal", "Jl. Niaga Gg.Merak No.4", "085852908719");
+UPDATE pelanggan SET nama_pelanggan="Rafly" WHERE id = '2';
+DELETE FROM supplier WHERE nama_supplier = "Wildan;
+SELECT * FROM detail_supplier where facebook = "ahmadbaihaqi";
+UPDATE supplier SET alamat_supplier = "Jl. Raya Deandles No.12" WHERE id = '7';
+SELECT * FROM transaksi WHERE id_pelanggan = 9;
